@@ -18,5 +18,10 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this,"返回结果result==="+result,Toast.LENGTH_SHORT).show();
 
+
+        int value = jni.add(3,5);
+
+        Toast.makeText(this,"返回结果value==="+value,Toast.LENGTH_SHORT).show();
+
     }
 }

@@ -15,6 +15,15 @@ jstring Java_com_tsyxue_jnidemo_natives_JNI_HelloC
         //jstring     (*NewStringUTF)(JNIEnv*, const char*);
         return (*env) ->NewStringUTF(env , str) ;
 
-  }
+  };
+
+
+jint Java_com_tsyxue_jnidemo_natives_JNI_add
+        (JNIEnv *env , jobject obj, jint a, jint b){
+
+        int result = a + b ;
+
+        return result ;
+};
 
 

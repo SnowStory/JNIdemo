@@ -13,4 +13,6 @@ public class JNI {
 
     public native String HelloC();
 
+    public native int add(int a , int b);
+
 }
