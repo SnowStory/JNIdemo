@@ -5,11 +5,6 @@ package com.tsyxue.jnidemo.natives;
  */
 public class JNI {
 
-    static {
-
-        System.loadLibrary("hello");
-
-    }
 
     public native String HelloC();
 

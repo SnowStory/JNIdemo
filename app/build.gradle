@@ -31,3 +31,20 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.1'
 }
+
+/*
+def createDIr = {
+    paths ->
+        File dir = new File(paths);
+        if(!dir.exists()){
+            dir.mkdirs()
+        }
+}
+
+task makedir(){
+    def paths = ['tsy','tsy1']
+
+    doFirst{
+        paths.forEach(createDIr)
+    }
+}*/

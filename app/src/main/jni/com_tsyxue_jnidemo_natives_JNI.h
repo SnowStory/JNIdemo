@@ -21,7 +21,7 @@ JNIEXPORT jstring JNICALL Java_com_tsyxue_jnidemo_natives_JNI_HelloC
  * Signature: (II)I
  */
 JNIEXPORT jint JNICALL Java_com_tsyxue_jnidemo_natives_JNI_add
-  (JNIEnv *, jobject, jint, jint);
+  (JNIEnv *, jobject,jint, jint);
 
 #ifdef __cplusplus
 }
